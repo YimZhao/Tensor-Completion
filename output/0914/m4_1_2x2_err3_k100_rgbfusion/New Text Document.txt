@@ -1,0 +1,207 @@
+How many pixels in a square: 1
+Sqaure size: 2
+0
+Recover score:  0.25
+1
+Recover score:  0.25
+2
+Recover score:  0.25
+3
+Recover score:  0.25
+4
+Recover score:  0.25
+5
+Recover score:  0.25
+6
+Recover score:  0.25
+7
+Recover score:  0.25
+8
+Recover score:  0.25
+9
+Recover score:  0.25
+10
+Recover score:  0.250003125
+11
+Recover score:  0.25000208333333335
+12
+Recover score:  0.250003125
+13
+Recover score:  0.25
+14
+Recover score:  0.25
+15
+Recover score:  0.25
+16
+Recover score:  0.2500041666666667
+17
+Recover score:  0.25000625
+18
+Recover score:  0.25002291666666665
+19
+Recover score:  0.25009166666666666
+20
+Recover score:  0.25028229166666666
+21
+Recover score:  0.2505375
+22
+Recover score:  0.25078645833333335
+23
+Recover score:  0.25076145833333335
+24
+Recover score:  0.25047395833333336
+25
+Recover score:  0.25041979166666667
+26
+Recover score:  0.25045833333333334
+27
+Recover score:  0.25073645833333336
+28
+Recover score:  0.25138229166666665
+29
+Recover score:  0.25252708333333335
+30
+Recover score:  0.2541583333333333
+31
+Recover score:  0.25550416666666664
+32
+Recover score:  0.2565635416666667
+33
+Recover score:  0.25700104166666665
+34
+Recover score:  0.2573302083333333
+35
+Recover score:  0.2573770833333333
+36
+Recover score:  0.25748020833333335
+37
+Recover score:  0.257653125
+38
+Recover score:  0.2577541666666667
+39
+Recover score:  0.2579197916666667
+40
+Recover score:  0.25800833333333334
+41
+Recover score:  0.25810520833333334
+42
+Recover score:  0.2582302083333333
+43
+Recover score:  0.25831041666666665
+44
+Recover score:  0.2583885416666667
+45
+Recover score:  0.2583885416666667
+46
+Recover score:  0.25843229166666665
+47
+Recover score:  0.2584625
+48
+Recover score:  0.258484375
+49
+Recover score:  0.2584875
+50
+Recover score:  0.25849479166666667
+51
+Recover score:  0.2585166666666667
+52
+Recover score:  0.2585427083333333
+53
+Recover score:  0.2585354166666667
+54
+Recover score:  0.25853020833333334
+55
+Recover score:  0.25854895833333336
+56
+Recover score:  0.258559375
+57
+Recover score:  0.25856875
+58
+Recover score:  0.25857395833333335
+59
+Recover score:  0.25858125
+60
+Recover score:  0.258584375
+61
+Recover score:  0.2585875
+62
+Recover score:  0.2585791666666667
+63
+Recover score:  0.258571875
+64
+Recover score:  0.25856875
+65
+Recover score:  0.2585677083333333
+66
+Recover score:  0.25856979166666666
+67
+Recover score:  0.2585677083333333
+68
+Recover score:  0.25857083333333336
+69
+Recover score:  0.25856979166666666
+70
+Recover score:  0.25856979166666666
+71
+Recover score:  0.25857291666666665
+72
+Recover score:  0.25857708333333335
+73
+Recover score:  0.25857395833333335
+74
+Recover score:  0.25857083333333336
+75
+Recover score:  0.25856979166666666
+76
+Recover score:  0.25856979166666666
+77
+Recover score:  0.25857083333333336
+78
+Recover score:  0.25857083333333336
+79
+Recover score:  0.25857083333333336
+80
+Recover score:  0.258571875
+81
+Recover score:  0.25856979166666666
+82
+Recover score:  0.258571875
+83
+Recover score:  0.258571875
+84
+Recover score:  0.258571875
+85
+Recover score:  0.258571875
+86
+Recover score:  0.25857083333333336
+87
+Recover score:  0.25857083333333336
+88
+Recover score:  0.25857083333333336
+89
+Recover score:  0.25857083333333336
+90
+Recover score:  0.25856979166666666
+91
+Recover score:  0.25856979166666666
+92
+Recover score:  0.25856979166666666
+93
+Recover score:  0.25856979166666666
+94
+Recover score:  0.25856979166666666
+95
+Recover score:  0.25856979166666666
+96
+Recover score:  0.25856979166666666
+97
+Recover score:  0.25856979166666666
+98
+Recover score:  0.25856979166666666
+99
+Recover score:  0.25856979166666666
+Timer unit: 1e-07 s
+
+Total time: 644.372 s
+File: .\HaLRTC.py
+Function: fuc at line 222

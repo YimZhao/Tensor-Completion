@@ -1,0 +1,405 @@
+How many pixels in a square: 1
+Sqaure size: 3
+0
+Recover score:  0.1112049584518501
+1
+Recover score:  0.1111197860753811
+2
+Recover score:  0.11110736510381271
+3
+Recover score:  0.11112333492440064
+4
+Recover score:  0.11108784643420523
+5
+Recover score:  0.11112510934891041
+6
+Recover score:  0.11113398147145927
+7
+Recover score:  0.11110913952832248
+8
+Recover score:  0.11112865819792996
+9
+Recover score:  0.11110026740577363
+10
+Recover score:  0.11111801165087133
+11
+Recover score:  0.11108252316067592
+12
+Recover score:  0.11112156049989087
+13
+Recover score:  0.1111197860753811
+14
+Recover score:  0.11111801165087133
+15
+Recover score:  0.11111623722636156
+16
+Recover score:  0.11107187661361728
+17
+Recover score:  0.1111020418302834
+18
+Recover score:  0.11109139528322477
+19
+Recover score:  0.1110647789155782
+20
+Recover score:  0.11109316970773454
+21
+Recover score:  0.1111197860753811
+22
+Recover score:  0.11109849298126385
+23
+Recover score:  0.11110381625479317
+24
+Recover score:  0.11114817686753743
+25
+Recover score:  0.11110736510381271
+26
+Recover score:  0.11112865819792996
+27
+Recover score:  0.11112156049989087
+28
+Recover score:  0.11110381625479317
+29
+Recover score:  0.11111446280185179
+30
+Recover score:  0.111089620858715
+31
+Recover score:  0.1111322070469495
+32
+Recover score:  0.11109494413224431
+33
+Recover score:  0.11112865819792996
+34
+Recover score:  0.11110381625479317
+35
+Recover score:  0.11114640244302766
+36
+Recover score:  0.11115350014106674
+37
+Recover score:  0.1111996351783208
+38
+Recover score:  0.11127593543224094
+39
+Recover score:  0.11136820550674903
+40
+Recover score:  0.11147112212831574
+41
+Recover score:  0.11177632314399633
+42
+Recover score:  0.11225009448810515
+43
+Recover score:  0.1130201947253457
+44
+Recover score:  0.11444150875767217
+45
+Recover score:  0.11682633529880422
+46
+Recover score:  0.12091815821833583
+47
+Recover score:  0.1281436148221228
+48
+Recover score:  0.13874225241898422
+49
+Recover score:  0.1550421159657394
+50
+Recover score:  0.17783459879374622
+51
+Recover score:  0.20765912595397498
+52
+Recover score:  0.2440153097346703
+53
+Recover score:  0.28582252560938176
+54
+Recover score:  0.3303996181438455
+55
+Recover score:  0.3782647192949147
+56
+Recover score:  0.426608915063622
+57
+Recover score:  0.47422559678332327
+58
+Recover score:  0.5198992836648254
+59
+Recover score:  0.5636814340189118
+60
+Recover score:  0.6043973788201141
+61
+Recover score:  0.6425013707429338
+62
+Recover score:  0.678161980115799
+63
+Recover score:  0.7107067000495064
+64
+Recover score:  0.7403041008724845
+65
+Recover score:  0.7669843478013993
+66
+Recover score:  0.7911502351999687
+67
+Recover score:  0.8131176106309321
+68
+Recover score:  0.8328793763962503
+69
+Recover score:  0.8505224792969021
+70
+Recover score:  0.8667265239201296
+71
+Recover score:  0.8812430908345651
+72
+Recover score:  0.89398345881472
+73
+Recover score:  0.905785156229206
+74
+Recover score:  0.9161655396113656
+75
+Recover score:  0.9251725184229624
+76
+Recover score:  0.9333064803757521
+77
+Recover score:  0.9405851697148322
+78
+Recover score:  0.9472268406549046
+79
+Recover score:  0.9531072834802853
+80
+Recover score:  0.9581714910311713
+81
+Recover score:  0.9627548295399094
+82
+Recover score:  0.9669034340437538
+83
+Recover score:  0.9706137556936847
+84
+Recover score:  0.9738804712161728
+85
+Recover score:  0.976737294676904
+86
+Recover score:  0.9793492475552866
+87
+Recover score:  0.9815513083719123
+88
+Recover score:  0.9835972198316781
+89
+Recover score:  0.9853840653130174
+90
+Recover score:  0.9869544310041646
+91
+Recover score:  0.9884272033472744
+92
+Recover score:  0.9897172099658779
+93
+Recover score:  0.9908830068687973
+94
+Recover score:  0.9918926544148569
+95
+Recover score:  0.9928047086128792
+96
+Recover score:  0.993596101944237
+97
+Recover score:  0.994323615993243
+98
+Recover score:  0.9949907996089168
+99
+Recover score:  0.9955816829706705
+100
+Recover score:  0.9960873939559552
+101
+Recover score:  0.9964688952255559
+102
+Recover score:  0.9968699151647642
+103
+Recover score:  0.9972372210382867
+104
+Recover score:  0.9975477453274967
+105
+Recover score:  0.9977908414853353
+106
+Recover score:  0.998025065520625
+107
+Recover score:  0.9982592895559148
+108
+Recover score:  0.9984473785539505
+109
+Recover score:  0.9986319187029666
+110
+Recover score:  0.9987898424843362
+111
+Recover score:  0.9989264731715887
+112
+Recover score:  0.9990560061608019
+113
+Recover score:  0.9991837647255054
+114
+Recover score:  0.9992778092245233
+115
+Recover score:  0.9993487862049141
+116
+Recover score:  0.9994197631853049
+117
+Recover score:  0.9994854168921664
+118
+Recover score:  0.9995510705990279
+119
+Recover score:  0.9996025289098113
+120
+Recover score:  0.9996486639470654
+121
+Recover score:  0.9996788291637315
+122
+Recover score:  0.9997072199558878
+123
+Recover score:  0.9997427084460833
+124
+Recover score:  0.9997764225117689
+125
+Recover score:  0.9997994900303959
+126
+Recover score:  0.9998225575490229
+127
+Recover score:  0.9998420762186304
+128
+Recover score:  0.9998669181617672
+129
+Recover score:  0.9998793391333356
+130
+Recover score:  0.9999006322274528
+131
+Recover score:  0.999914827623531
+132
+Recover score:  0.9999201508970603
+133
+Recover score:  0.9999325718686287
+134
+Recover score:  0.9999361207176483
+135
+Recover score:  0.9999396695666678
+136
+Recover score:  0.9999414439911776
+137
+Recover score:  0.9999503161137264
+138
+Recover score:  0.9999556393872557
+139
+Recover score:  0.9999627370852948
+140
+Recover score:  0.9999645115098046
+141
+Recover score:  0.9999645115098046
+142
+Recover score:  0.9999680603588241
+143
+Recover score:  0.9999716092078437
+144
+Recover score:  0.9999804813303925
+145
+Recover score:  0.9999840301794121
+146
+Recover score:  0.9999840301794121
+147
+Recover score:  0.9999840301794121
+148
+Recover score:  0.9999840301794121
+149
+Recover score:  0.9999858046039218
+150
+Recover score:  0.9999875790284316
+151
+Recover score:  0.9999875790284316
+152
+Recover score:  0.9999893534529414
+153
+Recover score:  0.9999946767264707
+154
+Recover score:  0.9999946767264707
+155
+Recover score:  0.9999964511509805
+156
+Recover score:  0.9999964511509805
+157
+Recover score:  0.9999964511509805
+158
+Recover score:  0.9999982255754902
+159
+Recover score:  0.9999982255754902
+160
+Recover score:  0.9999982255754902
+161
+Recover score:  0.9999982255754902
+162
+Recover score:  1.0
+163
+Recover score:  1.0
+164
+Recover score:  1.0
+165
+Recover score:  1.0
+166
+Recover score:  1.0
+167
+Recover score:  1.0
+168
+Recover score:  1.0
+169
+Recover score:  1.0
+170
+Recover score:  1.0
+171
+Recover score:  1.0
+172
+Recover score:  1.0
+173
+Recover score:  1.0
+174
+Recover score:  1.0
+175
+Recover score:  1.0
+176
+Recover score:  1.0
+177
+Recover score:  1.0
+178
+Recover score:  1.0
+179
+Recover score:  1.0
+180
+Recover score:  1.0
+181
+Recover score:  1.0
+182
+Recover score:  1.0
+183
+Recover score:  1.0
+184
+Recover score:  1.0
+185
+Recover score:  1.0
+186
+Recover score:  1.0
+187
+Recover score:  1.0
+188
+Recover score:  1.0
+189
+Recover score:  1.0
+190
+Recover score:  1.0
+191
+Recover score:  1.0
+192
+Recover score:  1.0
+193
+Recover score:  1.0
+194
+Recover score:  1.0
+195
+Recover score:  1.0
+196
+Recover score:  1.0
+197
+Recover score:  1.0
+198
+Recover score:  1.0
+199
+Recover score:  1.0
+Timer unit: 1e-07 s
+
+Total time: 728.42 s

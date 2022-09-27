@@ -1,0 +1,15 @@
+stars = 237.255s
+rem = 374.598s
+house = 98.845s
+seaside=35s
+
+√恢复能力评估
+√ 方框随机采样：与全体随机结果差不多
+射线采样，missing angle
+√ 灰度：无影响
+√ rgb feature：无影响
+constrain
+√iteration output
+
+*format
+

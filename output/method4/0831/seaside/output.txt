@@ -1,0 +1,106 @@
+input n and sqsize
+How many pixels in a square: 5
+Sqaure size: 3
+0
+Recover score:  0.5550807984200524
+1
+Recover score:  0.5512675601485548
+2
+Recover score:  0.5228288585304571
+3
+Recover score:  0.5234676513539747
+4
+Recover score:  0.53000818009699
+5
+Recover score:  0.5261346113921602
+6
+Recover score:  0.5228235352569278
+7
+Recover score:  0.5254443602578593
+8
+Recover score:  0.5367705119037268
+9
+Recover score:  0.5548199580171161
+10
+Recover score:  0.5785369160147136
+11
+Recover score:  0.6075221403818206
+12
+Recover score:  0.642499596318424
+13
+Recover score:  0.6787404425059842
+14
+Recover score:  0.7151605055690313
+15
+Recover score:  0.7477992700017567
+16
+Recover score:  0.7736916724483331
+17
+Recover score:  0.793401979902868
+18
+Recover score:  0.8058335980183227
+19
+Recover score:  0.8126420648623135
+20
+Recover score:  0.8161909138818553
+21
+Recover score:  0.8162601164377363
+22
+Recover score:  0.8154722719553981
+23
+Recover score:  0.8135754121544531
+24
+Recover score:  0.811623545193705
+25
+Recover score:  0.8098029856466802
+26
+Recover score:  0.8103761247633361
+27
+Recover score:  0.811321893027044
+28
+Recover score:  0.813738659209352
+29
+Recover score:  0.8183042534729924
+30
+Recover score:  0.825068359704239
+31
+Recover score:  0.8332324868736947
+32
+Recover score:  0.842530471304894
+33
+Recover score:  0.853798066941939
+34
+Recover score:  0.8668418615132647
+35
+Recover score:  0.8809875737051581
+36
+Recover score:  0.8952894352539112
+37
+Recover score:  0.909804227743837
+38
+Recover score:  0.9245000115337593
+39
+Recover score:  0.9374834756717527
+40
+Recover score:  0.9489994907401657
+41
+Recover score:  0.9591172592948792
+42
+Recover score:  0.9678545255809909
+43
+Recover score:  0.9747321949808628
+44
+Recover score:  0.9801459641601737
+45
+Recover score:  0.9847151072728337
+46
+Recover score:  0.9882408887737485
+47
+Recover score:  0.9910693214423232
+48
+Recover score:  0.9932358937687534
+49
+Recover score:  0.9949251459020553
+Timer unit: 1e-07 s
+
+Total time: 167.05 s
