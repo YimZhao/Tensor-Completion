@@ -199,9 +199,22 @@ def init():
             if i%2 == 1:
                 jstart = 1
             for j in range(jstart,imSize[1],2):
-                if random.randint(0,9) < 8:
+                #if random.randint(0,9) < 8:
                     known[i,j] = 1
         X = ReplaceIndInterval(X,known,Image,2)
+        for i in range(0,imSize[0]):
+            for j in range(0, imSize[1]):
+                if known[i][j] != 1:
+                    if i < imSize[0]-3 and i > 2 and j < imSize[1]-3 > 2:
+                        for c in range(3):
+                            pixelsum = 0
+                            pixelnum = 0
+                            for x in range(i-2,i+2):
+                                for y in range(j-2,j+2):
+                                    if known[x,y]:
+                                        pixelsum += Image[x,y,c]
+                                        pixelnum += 1
+                            X[i,j,c] = pixelsum/pixelnum
 
     if m == '3':
         X = np.zeros(imSize)
@@ -235,7 +248,17 @@ def init():
         for i in range(0,imSize[0]):
             for j in range(0, imSize[1]):
                 if known[i][j] != 1:
-                    X[i,j,:] = np.array([127,127,127])
+                    if i < imSize[0]-3 and i > 2 and j < imSize[1]-3 > 2:
+                        for c in range(3):
+                            pixelsum = 0
+                            pixelnum = 0
+                            for x in range(i-2,i+2):
+                                for y in range(j-2,j+2):
+                                    if known[x,y]:
+                                        pixelsum += Image[x,y,c]
+                                        pixelnum += 1
+                            X[i,j,c] = pixelsum/pixelnum
+
     
     cv2.namedWindow('Corrupting Image', cv2.WINDOW_NORMAL)
     cv2.imshow("Corrupting Image", X.astype(np.uint8))
@@ -246,11 +269,17 @@ def init():
     a = abs(np.random.rand(3, 1))
     a = a / np.sum(a)
     p = 1e-7
-    K = 200
+    K = 100
     ArrSize = np.array(imSize)
     ArrSize = np.append(ArrSize, 3)
     Mi = np.zeros(ArrSize)
     Yi = np.zeros(ArrSize)
+    histo_ori = histo(Image.astype(np.uint8))
+    cv2.imshow("0",histo_ori)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+    recname = "./output/histogram_ori.jpg"
+    cv2.imwrite(recname, histo_ori.astype(np.uint8))
     return Image, X, known, a, Mi, Yi, imSize, ArrSize, p, K, m, n, sqsize
 
 def fuc():
@@ -294,29 +323,40 @@ def recoverScore(X,img):
     return score
 
 def histo(img):
-    color = ('b','g','r')
+    h = np.zeros((256,256,3))
+    bins = np.arange(256).reshape(256,1)
+    color = [(255,0,0),(0,255,0),(0,0,255)]
     for i,col in enumerate(color):
         histr = cv2.calcHist([img],[i],None,[256],[0,256])
-        plt.plot(histr,color = col)
-        plt.xlim([0,256])
-    plt.show()
+        cv2.normalize(histr,histr,0,255*.9,cv2.NORM_MINMAX)
+        hist = np.int32(np.around(histr))
+        pts = np.column_stack((bins,hist))
+        cv2.polylines(h,[pts],False,col)
+    h = np.flipud(h)
+    return h
 
 def removeOutBoundsPixels(X):
-    histo(X)
     imSize = X.shape
     for i in range(imSize[0]):
         for j in range(imSize[1]):
-            if (X[i,j,:]<0).any():
-                X[i,j,:] = np.array([0,0,0])
-            if (X[i,j,:]>255).any():
-                X[i,j,:] = np.array([255,255,255])
-    histo(X)
+            for c in range(3):
+                if (X[i,j,c]<0):
+                    X[i,j,c] = 0
+                if (X[i,j,c]>255):
+                    X[i,j,c] = 255
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
     return X
+
 lp = LineProfiler()
 lp_wrapper = lp(fuc)
 X, Image = lp_wrapper()
 lp.print_stats()
 X = removeOutBoundsPixels(X)
+histo_rec = histo(X.astype(np.uint8))
+cv2.imshow("1",histo_rec)
+recname = "./output/histogram_rec.jpg"
+cv2.imwrite(recname, histo_rec.astype(np.uint8))
 print("Recover score after remove pixels out of bounds: ", recoverScore(X, Image))
 cv2.namedWindow('HaLRTC', cv2.WINDOW_NORMAL)
 cv2.imshow("HaLRTC", X.astype(np.uint8))
@@ -325,5 +365,3 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 recname = "./output/rec.jpg"
 cv2.imwrite(recname, X.astype(np.uint8))
-
-
